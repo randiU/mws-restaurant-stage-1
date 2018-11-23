@@ -1,9 +1,1 @@
 
-/* ================== Navigation =================== */
-nav {
-	display: flex;
-}
-nav h1 a {
-	font-size: 100%;
-	padding-top: 50%;
-}
