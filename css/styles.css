@@ -112,6 +112,7 @@ nav h1 a {
   align-items: center;
   display: flex
   flex-wrap: wrap;
+  text-align: center;
 }
 .filter-options h2 {
   color: white;
@@ -131,9 +132,10 @@ nav h1 a {
   font-size: 11pt;
   height: 35px;
   letter-spacing: 0;
-  margin: 10px;
+  margin: 1%;
   padding: 0 10px;
-  width:45%;
+  width:46%;
+  text-align: center;
 }
 
 
