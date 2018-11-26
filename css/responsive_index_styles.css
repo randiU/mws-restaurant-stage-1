@@ -1,3 +1,6 @@
+
+/*=================INDEX=================*/
+
 @media only screen and (min-width: 1050px) {
 	.container {
 		max-width: 1050px;
@@ -7,9 +10,32 @@
 }
 
 
-@media only screen and (max-width: 990px) /*and (min-width: 660px)*/ {
+@media only screen and (max-width: 990px) and (min-width: 520px) {
 	#restaurants-list li {
 		width: 70%;
-		;
 	}
 }
+
+
+@media only screen and (max-width: 519px) {
+	.filter-options select {
+		width: 80%;
+	}
+
+	#restaurants-list li {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#restaurants-list .restaurant-img {
+		min-height: 150px;
+	}
+
+	#restaurants-list li h1 {
+		font-size: 10pt;
+	}
+}
+
+
+/*===============RESTAURANT===============*/
