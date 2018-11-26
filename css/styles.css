@@ -55,6 +55,7 @@ nav {
   background-color: #252831;
   text-align:center;
   display: flex;
+  vertical-align: middle;
 }
 nav h1 {
   margin: auto;
@@ -155,9 +156,10 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
-  text-align: left;
-  width: 40%;
+  padding: 3%;
+  text-align: center;
+  width: 33%;
+  vertical-align: middle;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;

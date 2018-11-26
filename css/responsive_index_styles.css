@@ -1,1 +1,14 @@
+@media only screen and (min-width: 1050px) {
+	.container {
+		max-width: 1050px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 
+
+@media only screen and (min-width: 990px) and (max-width: 660px) {
+	#restaurants-list li {
+		width: 90%;
+	}
+}
