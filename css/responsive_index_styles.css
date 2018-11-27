@@ -40,8 +40,6 @@
 
 /*===============RESTAURANT===============*/
 
-@media only screen and (max-width: 767px) {
-    #restaurant-container, #reviews-container {
-        padding: 0;
-    }
+@media only screen and (max-width: 760px) {
+
 }
