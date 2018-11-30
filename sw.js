@@ -6,6 +6,7 @@ self.addEventListener('install', function(event) {
 	event.waitUntil(
 		caches.open(staticCacheName).then(function(cache) {
 			return cache.addAll([
+				'/',
 				'/index.html',
 				'/restaurant.html',
 				'/css/styles.css',
@@ -34,10 +35,33 @@ self.addEventListener('install', function(event) {
 })
 
 
+//Gets rid of the old cache
+self.addEventListener('activate', function(event) {
+    event.waitUntil(
+    	//caches.keys gets the name of all of the caches
+        caches.keys().then(function(cacheNames) {
+            //waits for the completion of all the promises
+            return Promise.all(
+                cacheNames.filter(function(cacheName) {
+                    return cacheName.startsWith('restaurant-') &&
+                        //makes sure current cache isn't included in the delete
+                        cacheName != staticCacheName;
+                }).map(function(cacheName) {
+                    return caches.delete(cacheName);
+                })
+            );
+        })
+    );
+});
+
+
+//this will respond to the event by checking to see if there is already
+//a match in the cache and returning it if there is
 self.addEventListener('fetch', function(event) {
-	//tells sw we are going to handle event 
-	console.log('Worker: fetch event in progress')
-	event.respondWith(
-		new Response('hello world')
-		);
+    event.respondWith(
+        caches.match(event.request).then(function(response) {
+            if (response) return response;
+			return fetch(event.request);
+        })
+    );
 });
