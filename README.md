@@ -4,11 +4,11 @@
 
 ## Project Overview
 
-This is a project included in the Udacity Front-End Web Developer Nanodegree program. The goal is to take a website that is unresponsive, lacks accessibility, and does not work offline, to become a responsive, accessible, and offline ready website. 
+This is a project included in the Udacity Front-End Web Developer Nanodegree program. The goal is to take a website that is unresponsive, lacks accessibility, and does not work offline, and update it to become a responsive, accessible, and offline ready website. 
 
 ## App Description
 
-The user can visit this website and choose a restaurant based on a specific neighborhood/location and what cuisine they are interested in. Once this information has been provided, they will be taken to a page specific to the restaurant they choose and can see reviews associted with that restaurant, hours of operation, and address information. 
+The user can visit the Restaurant Reviews website and choose a restaurant based on a specific neighborhood/location and what cuisine they are interested in. Once this information has been provided, they will be provided with a list of possible restaurants. Once they pick a restaurant, they will be taken to a page specific to the restaurant and can see reviews associted with that restaurant, hours of operation, and address information. 
 
 
 ## How to run the App
