@@ -23,4 +23,8 @@ The user can visit this website and choose a restaurant based on a specific neig
 
 ## Acknowledgements
 - Udacity Front-End Nanodegree Materials & mentors
-- [Map Box] (https://www.mapbox.com/install/)
+- [Map Box](https://www.mapbox.com/install/)
+- [Know your ARIA: Hidden vs None](https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html)
+- [MDN - using the aria-label attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
+- [CSS-TRICKS: Making a Simple Site Work Offline with ServiceWorker](https://css-tricks.com/serviceworker-for-offline/)
+
