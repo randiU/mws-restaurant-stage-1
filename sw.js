@@ -10,7 +10,7 @@ self.addEventListener('install', function(event) {
 				'/index.html',
 				'/restaurant.html',
 				'/css/styles.css',
-				'/responsive_index_styles.css',
+				'/css/responsive_index_styles.css',
 				'/data/restaurants.json',
 				'/js/dbhelper.js',
 				'/js/sw_register.js',
