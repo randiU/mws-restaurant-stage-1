@@ -72,15 +72,58 @@
 
 }
 
+@media only screen and (max-width: 730px) and (min-width: 700px) {
+	.inside #map-container {
+		padding-top: 6%;
+	}
+}
+
+@media only screen and (max-width: 699px) and (min-width: 570px) {
+	.inside #map-container {
+		padding-top: 7.5%;
+	}
+}
+
+@media only screen and (max-width: 569px) and (min-width: 430px) {
+	.inside #map-container {
+		padding-top: 9.5%;
+	}
+}
+
+
 
 @media only screen and (max-width: 430px) {
 	.inside header nav h1 a {
         margin: auto;
-        font-size: 65%;
+        font-size: 20px;
         line-height: 100%;
     }
 
     .inside header nav h1 {
-    	margin-left: 8%;
+    	margin-right: 10%;
     }
+
+    .inside #map-container {
+		padding-top: 12.4%;
+	}
+
+	#restaurant-container h2 {
+    	font-size: 18px;
+    }
+
+    .inside #restaurant-container {
+    	padding-top: 30%;
+    }
+
+    .inside #reviews-container h2 {
+    	font-size: 20px;
+    }
+
+    #footer-restaurant {
+    	padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
 }
